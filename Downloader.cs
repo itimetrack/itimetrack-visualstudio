@@ -17,7 +17,7 @@ namespace WakaTime
             // Check for proxy setting
             var proxy = WakaTimePackage.GetProxy();
 
-            var localZipFile = Path.Combine(destinationDir, "wakatime-cli.zip");
+            var localZipFile = Path.Combine(destinationDir, "itimetrack-cli.zip");
 
             var client = new WebClient { Proxy = proxy };
 
@@ -28,7 +28,7 @@ namespace WakaTime
 
             try
             {
-                Directory.Delete(Path.Combine(destinationDir, "wakatime-master"), true);
+                Directory.Delete(Path.Combine(destinationDir, "itimetrack-master"), true);
             }
             catch { /* ignored */ }
 

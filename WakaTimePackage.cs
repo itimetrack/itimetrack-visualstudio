@@ -88,7 +88,7 @@ namespace WakaTime
                 }
                 catch (WebException ex)
                 {
-                    Logger.Error("Are you behind a proxy? Try setting a proxy in WakaTime Settings with format https://user:pass@host:port. Exception Traceback:", ex);
+                    Logger.Error("Are you behind a proxy? Try setting a proxy in iTimeTrack Settings with format https://user:pass@host:port. Exception Traceback:", ex);
                 }
                 catch (Exception ex)
                 {

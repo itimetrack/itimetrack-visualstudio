@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="52d9c3ff-c893-408e-95e4-d7484ec7fa47">
-    <Name>WakaTime</Name>
-    <Author>WakaTime</Author>
+  <Identifier Id="9B1CED06-9BEC-43FF-929B-F6FE74AF1314">
+    <Name>iTimeTrack</Name>
+    <Author>iTimeTrack</Author>
     <Version>7.0.3</Version>
-    <Description xml:space="preserve">Metrics, insights, and time tracking automatically generated from your programming activity.</Description>
+    <Description xml:space="preserve">iTimeTrack is automated time tracking tool for programmers. Once the iTimeTrack plugin is installed, your time worked in files will be assigned to a project then a time-entry will be generated at www.itimetrack.com.</Description>
     <Locale>1033</Locale>
-    <MoreInfoUrl>https://github.com/wakatime/visualstudio-wakatime</MoreInfoUrl>
+    <MoreInfoUrl>https://github.com/itimetrack/itimetrack-visualstudio</MoreInfoUrl>
     <License>LICENSE.txt</License>
-    <Icon>Resources\wakatime-120.png</Icon>
-    <PreviewImage>Resources\ScreenShot-2014-10-29.png</PreviewImage>
+    <Icon>Resources\itimetrack-120.png</Icon>
+    <PreviewImage>Resources\itt-screenshot-2016302.png</PreviewImage>
     <InstalledByMsi>false</InstalledByMsi>
     <SupportedProducts>
       <VisualStudio Version="10.0">

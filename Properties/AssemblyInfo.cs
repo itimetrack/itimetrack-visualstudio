@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WakaTime")]
-[assembly: AssemblyDescription("Quantify your coding with automatic time tracking and metrics about your programming.")]
+[assembly: AssemblyTitle("iTimeTrack")]
+[assembly: AssemblyDescription("Automatically track your billable time as you work in your favorite editor")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WakaTime")]
-[assembly: AssemblyProduct("WakaTime")]
+[assembly: AssemblyCompany("iTimeTrack")]
+[assembly: AssemblyProduct("iTimeTrack")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]   

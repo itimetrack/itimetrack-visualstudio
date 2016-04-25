@@ -8,7 +8,7 @@ namespace WakaTime
 {
     internal static class WakaTimeConstants
     {
-        internal const string PluginName = "visualstudio-wakatime";
+        internal const string PluginName = "itimetrack-visualstudio";
         internal static string PluginVersion = string.Format("{0}.{1}.{2}", WakaTimePackage.CoreAssembly.Version.Major, WakaTimePackage.CoreAssembly.Version.Minor, WakaTimePackage.CoreAssembly.Version.Build);
         internal const string EditorName = "visualstudio";
         internal static string EditorVersion {
@@ -20,8 +20,9 @@ namespace WakaTime
             }
         }
 
-        internal const string CliUrl = "https://github.com/wakatime/wakatime/archive/master.zip";
-        internal const string CliFolder = @"wakatime-master\wakatime\cli.py";
+        //internal const string CliUrl = "https://github.com/wakatime/wakatime/archive/master.zip";
+        internal const string CliUrl = "https://github.com/itimetrack/itimetrack/archive/master.zip";
+        internal const string CliFolder = @"itimetrack-master\wakatime\cli.py";
 
         internal static string UserConfigDir = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
@@ -33,7 +34,7 @@ namespace WakaTime
 
             try
             {
-                var about = client.DownloadString("https://raw.githubusercontent.com/wakatime/wakatime/master/wakatime/__about__.py");
+                var about = client.DownloadString("https://raw.githubusercontent.com/itimetrack/itimetrack/master/wakatime/__about__.py");
                 var match = regex.Match(about);
 
                 if (match.Success)

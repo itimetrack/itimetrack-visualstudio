@@ -48,7 +48,7 @@
             this.lblAPIKey.Name = "lblAPIKey";
             this.lblAPIKey.Size = new System.Drawing.Size(112, 15);
             this.lblAPIKey.TabIndex = 0;
-            this.lblAPIKey.Text = "WakaTime API Key :";
+            this.lblAPIKey.Text = "iTimeTrack API Key :";
             // 
             // txtAPIKey
             // 
@@ -80,7 +80,7 @@
             this.linkLabel1.Size = new System.Drawing.Size(123, 21);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://wakatime.com";
+            this.linkLabel1.Text = "https://itimetrack.com";
             this.linkLabel1.UseCompatibleTextRendering = true;
             // 
             // label2
@@ -104,12 +104,12 @@
             this.Controls.Add(this.lblAPIKey);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("itimetrackicon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ApiKeyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WakaTime";
+            this.Text = "iTimeTrack";
             this.Load += new System.EventHandler(this.ApiKeyForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

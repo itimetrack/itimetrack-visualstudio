@@ -49,7 +49,7 @@ namespace WakaTime
 
         static string GetConfigFilePath()
         {
-            return Path.Combine(WakaTimeConstants.UserConfigDir, ".wakatime.cfg");
+            return Path.Combine(WakaTimeConstants.UserConfigDir, ".itimetrack.cfg");
         }
     }
 }

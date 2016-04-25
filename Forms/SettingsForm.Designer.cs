@@ -109,7 +109,7 @@
             this.chkDebugMode.Name = "chkDebugMode";
             this.chkDebugMode.Size = new System.Drawing.Size(149, 19);
             this.chkDebugMode.TabIndex = 6;
-            this.chkDebugMode.Text = "Debugging WakaTime?";
+            this.chkDebugMode.Text = "Debugging iTimeTrack (WakaTime engine)?";
             this.chkDebugMode.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -137,12 +137,12 @@
             this.Controls.Add(this.lblAPIKey);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("itimetrackicon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WakaTime Settings";
+            this.Text = "iTimeTrack Settings";
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
